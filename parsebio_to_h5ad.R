@@ -2,7 +2,7 @@ library(fastMatMR)
 library(Matrix)
 library(anndata)
 
-data_dir <- "/Users/suresh/Desktop/1M_PBMC_T1D_Parse_bio"
+data_dir <- "/Users/john/Desktop/1M_PBMC_T1D_Parse_bio"
 genes_file <- file.path(data_dir, "all_genes_1M_PBMC.csv")
 metadata_file <- file.path(data_dir, "cell_metadata_1M_PBMC.csv")
 mtx_file <- file.path(data_dir, "DGE_1M_PBMC.mtx")
